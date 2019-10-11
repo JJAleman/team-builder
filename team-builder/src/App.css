@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: .5rem;
+  width: 4rem;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(42, 126, 204); /* Green */
+  color: white;
+}
+
